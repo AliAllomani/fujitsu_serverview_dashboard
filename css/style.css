@@ -1,0 +1,107 @@
+ul.top_bar {
+  display: block;
+  padding: 3px;
+  margin: 20px;
+}
+
+ul.top_bar li {
+  display: inline;
+  padding: 8px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+ul.top_bar a {
+text-decoration: none;
+font-size: 16px;
+	color: #f60;
+	font-weight: bold;
+}
+
+ul.top_bar a:hover {
+	text-decoration: none;
+
+	border-bottom: 1px dotted #f60;
+}
+
+
+
+a {
+	COLOR: #c64934; TEXT-DECORATION: none  ;  font-size: 13px;
+}
+a:hover {
+	COLOR: #30569d; TEXT-DECORATION: underline;
+}
+a:active {
+	COLOR: #333333; TEXT-DECORATION: underline  ;
+}
+
+
+select{
+border:1px solid #dcdcdc;border:1px solid rgba(0, 0, 0, 0.1);color:#666;cursor:pointer;min-height:25px;font-family:inherit;}
+
+
+
+input[type="submit"]{
+background-image:-webkit-gradient(linear,left top,left bottom,from(#f5f5f5),to(#f1f1f1));background-image:-webkit-linear-gradient(top,#f5f5f5,#f1f1f1);-webkit-border-radius:2px;-webkit-user-select:none;background-color:#f5f5f5;background-image:linear-gradient(top,#f5f5f5,#f1f1f1);background-image:-o-linear-gradient(top,#f5f5f5,#f1f1f1);border:1px solid #dcdcdc;border:1px solid rgba(0, 0, 0, 0.1);border-radius:2px;color:#666;cursor:pointer;line-height:27px;margin:11px 6px;min-width:54px;padding:0 8px;text-align:center}
+
+input[type="submit"]:hover{background-image:-webkit-gradient(linear,left top,left bottom,from(#f8f8f8),to(#f1f1f1));background-image:-webkit-linear-gradient(top,#f8f8f8,#f1f1f1);-webkit-box-shadow:0 1px 1px rgba(0,0,0,0.1);background-color:#f8f8f8;background-image:linear-gradient(top,#f8f8f8,#f1f1f1);background-image:-o-linear-gradient(top,#f8f8f8,#f1f1f1);border:1px solid #c6c6c6;box-shadow:0 1px 1px rgba(0,0,0,0.1);color:#333}
+
+input[type="submit"]:focus{border:1px solid #4d90fe;outline:none}
+
+
+
+table.grid a {
+text-decoration: none;
+	border-bottom: 1px dotted #f60;
+	color: #f60;
+/*	font-weight: bold;  */
+}
+
+table.grid a:hover {
+	text-decoration: none;
+	color: #fff;
+	background: #f60;
+}
+
+table.grid tr th a {
+/*	color: #369;
+	border-bottom: 0px dotted #369;  */
+}
+
+table.grid tr th a:hover {
+	color: #fff;
+/*	background: #369;   */
+}
+
+table.grid thead tr th {
+	text-transform: uppercase;
+	background: #e2e2e2;
+	/*font-size:15px;*/
+}
+
+table.grid tfoot tr th, table.grid tfoot tr td {
+	text-transform: uppercase;
+	color: #000;
+	font-weight: bold;
+
+}
+
+table.grid td{
+
+	padding: 5px;
+/*	FONT-SIZE: 15px; */
+}
+
+table.grid th {
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	padding: 5px;
+/*	font-size:12px; */
+
+}
+
+table.grid tr.odd th, table.grid tr.odd td {
+	background: #efefef;
+}
